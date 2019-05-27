@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <!--h1.title+.text+ul.list>li.item*5 -->
+  <div class="red-square">
+    <span>Hello</span>
+    <i>World</i>
+    <em>!!</em>
+  </div>
+  <h1 class="title">Ironhack exercice</h1>
+  <div class="text">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, accusamus?
+  </div>
+  <ul class="list">
+    <li class="item">Learn html</li>
+    <li class="item">Learn CSS</li>
+    <li class="item">Learn JS</li>
+    <li class="item">Learn Json</li>
+    <li class="item">Learn Node</li>
+    <li class="item">Learn Mongo</li>
+    <li class="item">Learn React</li>
+  </ul>
+  <h3 class="title">
+    PIZZA TIME!!!!
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam dolores sint tenetur aperiam ullam eligendi explicabo libero, sunt maiores non. Enim rem magnam illo, expedita iure architecto a deleniti reprehenderit.
+  </p>
+
+ 
+  <!-- EXERCICE 1 INLINE ET BLOCKS -->
+  <section>
+    <h2>ex: 01 Premier pas !</h2>
+    <h3>Placer une image dans un paragraphe</h3>
+    <p>
+      Un paragraphe contenant du texte associé à une image 
+      <span>
+        <img class="img-inline" src="https://i.pinimg.com/474x/bc/93/f3/bc93f31127fb48810df9a375b4e1ca07--la-bible-lebanon.jpg" alt="Psaume 23"/>
+      </span> Constatez que le texte et l'image sont placés côte à côte.
+    </p>
+
+    <h3>Utiliser les styles inline</h3>
+    un paragraphe contenant<br/>
+    <span>des <span class="txt-green">spans</span> de couleurs <span class="txt-orange">différentes</span></span><br/>
+    et <a href="https://www.google.com" target="_blank">un lien</a> le tout sur plusieurs lignes.
+  </section>
+
+  <!-- EXERCICE 2 LES LISTES -->
+  <section>
+    <ol>
+      <li>Démarer son navigateur</li>
+      <li>Ouvrir la console</li>
+      <li>Coder !</li>
+    </ol>
+
+    <h2>Liste imbriquée</h2>
+    <ol>
+      <li>Element de niveau 1.1</li>
+      <li>Element de niveau 1.2
+        <ul class="firt-elem">
+          <li>Premier sous élement du deuxième nuémroté</li>
+          <ol>
+            <li>Ajoutons-y une sous liste</li>
+            <li>Elle est numéroté</li>
+            <li>C'est toujours ok?</li>
+          </ol>
+        </ul>
+
+        <ul class="seconde-elem">
+          <li>2ème sous-élément du deuxième élement numéroté</li>
+          <li>3ème sous-élement du deuxième élément numéroté</li>
+        </ul>
+        <li>Element de niveau 1.1</li>
+      </li>
+    </ol>
+  </section>
+
+  
+   <!-- EXERCICE 3 TABLES -->
+   <table class="table">
+      <tr>
+        <td class="cell">As</td>
+        <td class="cell">Trèfle</td>
+      </tr>
+  
+      <tr>
+        <td class="cell">Carreaux</td>
+        <td class="cell">Coeur</td>
+      </tr>
+    </table>
+
+  
+    <table class="table table-collapse">
+      <h2>Un exemple un peu plus complexe</h2>
+      <thead>
+        <tr>
+          <th class="cell" colspan="2"></th>
+          <th class="cell" colspan="2">Premier groupe</th>
+          <th class="cell" colspan="2">Deuxième groupe</th>
+      </tr>
+      <tr>
+          <th class="cell"></th>
+          <th class="cell">Personne</th>
+          <th class="cell">Singulier</th>
+          <th class="cell">Pluriel</th>
+          <th class="cell">Singulier</th>
+          <th class="cell">Pluriel</th>
+        </tr>
+      </thead>
+      
+      <tbody>      
+        <tr>
+          <td class="cell" rowspan="3">Présent</td>
+          <td class="cell">1</td>
+          <td class="cell">je code</td>
+          <td class="cell">nous codons</td>
+          <td class="cell">je réussis</td>
+          <td class="cell">nous réussissons</td>
+        </tr>
+        
+        <tr>
+          <td class="cell">2</td>
+          <td class="cell">tu codes</td>
+          <td class="cell">vous codez</td>
+          <td class="cell">tu réussis</td>
+          <td class="cell">vous réussissez</td>
+        </tr>
+        
+        <tr>
+          <td class="cell">3</td>
+          <td class="cell">il/elle code</td>
+          <td class="cell">ils/elles codent</td>
+          <td class="cell">il/elle/réussit</td>
+          <td class="cell">ils/elles réussissent</td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+   <!-- EXERCICE 4 PLAYERS -->
+    <section>
+      <h3>Audio</h3>
+      <audio>
+        <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg"/>
+        <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/mp3"/>
+      </audio>
+    </section>
+</body> 
+</html>

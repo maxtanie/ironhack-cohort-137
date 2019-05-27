@@ -1,0 +1,33 @@
+.red-square {
+  width: 120px;
+  height: 120px;
+  background: red;
+  color: #fff;
+}
+
+
+/*
+----------------------------------
+TABLE STYLE
+----------------------------------
+*/
+.table-collapse {
+  border-collapse: collapse;
+}
+
+.table, .table .cell {
+  border: 3px solid #222;
+  text-align: center;
+}
+
+.img-inline {
+  width: 150px;
+}
+
+.txt-green {
+  color:green;
+}
+
+.txt-orange {
+  color: orange;
+}
